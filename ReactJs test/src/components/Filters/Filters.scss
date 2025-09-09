@@ -1,0 +1,72 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+    padding: 30px;
+    background: #f4f4f4;
+    flex-direction: column;
+    margin: 30px;
+
+    .filters-search {
+        position: relative;
+
+        input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            font-size: 15px;
+            height: 45px;
+            letter-spacing: 0.2px;
+
+            &::placeholder {
+                color: #aaaaaa;
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: 10px;
+            font-size: 25px;
+            color: #5cb85c;
+            right: 10px;
+            pointer-events: none;
+        }
+    }
+
+    .filters-options {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px 30px;
+
+        select {
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            font-size: 15px;
+            background: #fff;
+            cursor: pointer;
+            min-width: 180px;
+            flex: 1;
+            height: 45px;
+            color: #aaaaaa;
+
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+
+            background: white url("data:image/svg+xml;utf8,<svg stroke='%23aaa' fill='%23aaa' stroke-width='0' viewBox='0 0 320 512' xmlns='http://www.w3.org/2000/svg'><path d='M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z'></path></svg>") no-repeat right 12px center;
+            background-size: 10px;
+
+
+            option {
+                background: white;
+                color: #000000;
+                margin: 20px;
+            }
+
+            option:checked {
+                background: #cccccc;
+                color: #000000;
+            }
+        }
+    }
+}

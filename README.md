@@ -25,15 +25,15 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Pranav3106/ReactJS-Test.git
 
-2. Navigate to the project directory
+2. **Navigate to the project directory**
     ```bash
    cd ReactJs test
 
-3. Install dependencies
+3. **Install dependencies**
     ```bash
     npm install
 
-4. Start the development server
+4. **Start the development server**
     ```bash
    npm run dev
 

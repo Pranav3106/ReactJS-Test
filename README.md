@@ -29,11 +29,11 @@ Make sure you have the following installed on your machine:
     ```bash
    cd ReactJs test
 
-3. Navigate to the project directory
+3. Install dependencies
     ```bash
     npm install
 
-4. Navigate to the project directory
+4. Start the development server
     ```bash
    npm run dev
 
